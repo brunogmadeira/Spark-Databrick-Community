@@ -1,16 +1,13 @@
 # Spark-Databrick-Community
 
 ### Pré-requisitos:
-- [Azure CLI](https://learn.microsoft.com/pt-br/cli/azure/)
-- [Visual Studio Code](https://code.visualstudio.com/download)
-- [Terraform](https://www.terraform.io/downloads)
-- Conta de e-mail Microsoft específica para esta atividade
+- [Azure CLI]
+- [Visual Studio Code]
+- [Terraform]
 
+### Passo a passo:
 
-### Roteiro:
-
-
-#### 1
+#### 1.
 ```bash  copy
 az login
 ```
@@ -51,9 +48,9 @@ terraform apply
 ##### 4.6. 
 5. Logar no [portal.azure.com](https://portal.azure.com/) e conferir o deploy do ADLS.
 
-#### 6
+#### 6.
 Configurar no seu DataBricks a conexão com o Conteiner da Azure
 
-#### 7
+#### 7.
 I,portar e rodar arquivo .dbc deste repositório dentro de um notebook
 
